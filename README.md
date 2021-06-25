@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div style="display: flex; flex-direction:column; justify-content: center; align-items: center;">
+  <img alt="home page" src="https://github.com/dg-veiga/moveit-nlw4-reactjs-nextjs/blob/main/resources/home-page.JPG" width="480" height="300" />
+  <img alt="new challenge" src="https://github.com/dg-veiga/moveit-nlw4-reactjs-nextjs/blob/main/resources/new-challenge.JPG" width="480" height="300" />
+  <img alt="congrats modal" src="https://github.com/dg-veiga/moveit-nlw4-reactjs-nextjs/blob/main/resources/congrats-modal.JPG" width="480" height="300" />
+</div>
+  
+# MoveIt
 
-## Getting Started
+Developed following the course made by [Diego Fernandes](https://github.com/diego3g) and [Rocketseat Team](https://github.com/Rocketseat) and distributed on the Next Level Week 4 event.
 
-First, run the development server:
+This app is intended to be a platform which remembers the user to keep exercising while working from home. So, from time to time, it sends a notification with a new exercise routine.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Libraries used:
+  - [x] NextJS
+  
+  - [x] React
+  
+  - [x] Typescript
+  
+  - [x] Axios
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## To make it work
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Clone this repository
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    $ git clone https://github.com/dg-veiga/moveit-nlw4-reactjs-nextjs
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Go to folder
 
-## Learn More
+    $ cd moveit-nlw4-reactjs-nextjs
+  
+Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+    $ npm install 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+And execute
+  
+    $ npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+After that, the result shall be visible on "localhost:3000".
